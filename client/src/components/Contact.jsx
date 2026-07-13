@@ -82,7 +82,7 @@ export default function Contact() {
   };
 
   return (
-    <>
+    <div>
       <div className={`row contact-sec mx-0 p-0 `}>
         <div className="col-lg-3 contact-first">
           <div>
@@ -312,6 +312,6 @@ export default function Contact() {
           </div>
         </div>
       </footer>
-    </>
+    </div>
   );
 }
