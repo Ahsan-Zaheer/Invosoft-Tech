@@ -1,0 +1,370 @@
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.layer2{
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 40px;
+}
+.shape1{
+    width: 170px;
+}
+.robo2{
+    position: absolute;
+    z-index: 10;
+    width: 200px;
+    top: -40px;
+    left: -20px;
+    animation: updown 3000ms ease infinite;
+
+}
+.title{
+    font-size: 8em;
+    font-weight: 800;
+    color: #141d9d3c;
+    margin-left: -5px;
+    
+}
+.sub_title{
+    color: #141D9D;
+    font-weight: 600;
+    font-size: 2.9em;
+}
+.pseudo{
+    position: absolute;
+    left: 430px;
+    bottom: -5px;
+}
+.info{
+    margin-top: 50px;
+    color: #141D9D;
+    font-size: 28px;
+}
+.inner_info2{
+    font-weight: 600;
+    padding-top: 50px;
+}
+
+
+
+
+
+.robo{
+    position: relative;
+    width: 300px;
+    animation: updown 3000ms ease infinite;
+    z-index: 10;
+    margin-left: 30px;
+
+}
+
+.shadow{
+    position: absolute;
+    left: 50px;
+    bottom: -70px;
+    z-index: 0;
+}
+
+
+
+.box{
+    
+    width: 280px;
+    height: 250px;
+    cursor: pointer;
+    perspective: 1000px;
+    background-color: transparent;
+    margin: 0 auto;
+    z-index: 1;
+
+
+}
+ 
+  .flip_card_inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip_card:hover .flip_card_inner {
+    transform: rotateY(180deg);
+  }
+  
+  
+  .flip_card_front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: #2970EA;
+
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .flip_card_back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+    background-color: #141D9D;
+
+    transform: rotateY(180deg);
+  }
+
+.box_ico{
+    width: 100px;
+    margin-bottom: 30px;
+}
+.box_info{
+    color: white;
+    font-size: 1.3em;
+}
+.btn{
+    background-color: #1FA4E5;
+    outline: none;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    width: 170px;
+    padding: 15px 0px;
+}
+.btn:hover{
+    width: 200px;
+    background-color: #141D9D;
+}
+
+.shape{
+    margin-top: 20px;
+    display: flex;
+    margin-bottom: -50px;
+}
+.shapes{
+    width: 150px;
+    z-index: 1;
+}
+.layer1{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: -100px;
+
+}
+
+.form{
+    padding: 50px;
+    background: url('../formBg.jpg') right/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    padding-top: 0;
+}
+.form>label{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 156.5%; /* 50.08px */
+    margin-top: 28px;
+}
+
+.uploadBtn{
+    background-color: transparent;
+    border: 1px solid white ;
+    border-style: dashed;
+    margin-top: 28px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 22.4px */
+    letter-spacing: 0.5px;
+    padding: 40px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+.formIco{
+    margin-right: 20px;
+}
+.formBtn{
+    margin-top: 28px;
+    background-color: #1FA4E5;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 70%;
+}
+.formBtn:hover{
+    background-color: #141D9D;
+
+}
+.inp{
+    width: 70%;
+    height: 62px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 4px;
+    background: #FAFAFA;
+}
+.inpMsg{
+    width: 70%;
+    height: 260px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 4px;
+    background: #FAFAFA;
+}
+.thanks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #141D9D;
+    padding: 30px 0px;
+    margin-top: 50px;
+}
+
+
+@keyframes updown {
+    0%{
+      transform: translateY(15px);
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translateY(15px);
+
+    }
+  }
+  @media only screen and (max-width: 1350px){
+    .shape1{
+        width: 120px;
+    }
+    .robo2{
+        width: 140px;
+    }
+  }
+  @media only screen and (max-width: 1200px){
+    .robo{
+        width: 200px;
+        margin-left: -20px;
+    }
+    .shadow{
+        left: -60px;
+    }
+  }
+
+
+  @media only screen and (max-width: 600px){
+    .top{
+        padding: 10px 20px;
+    }
+    .title{
+        font-size: 3em;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    .sub_title{
+        font-size: 2em;
+        margin-left: 5px;
+        margin-top: 20px;
+        padding-right: 150px;
+    }
+    .pseudo{
+        left: 100px;
+        top: 0;
+    }
+    .layer2{
+        top: 250px;
+    }
+    .info{
+        margin-top: 200px;
+    }
+    .shape{
+        display: none;
+    }
+    .shadow{
+        display: none;
+    }
+    .box{
+        margin-top: 24px;
+    }
+    .last_box{
+        margin-bottom: 20px;
+    }
+    .wwd_first{
+        padding: 100px 0px;
+    }
+    .robo{
+        width: 220px;
+        position: absolute;
+        top: 10px;
+        left: 0;
+    }
+    .robo_right{
+        position: absolute;
+        right: 61px;
+        bottom: -25px;
+        z-index: -1;
+    }
+    .inp, .inpMsg{
+        width: 100%;
+    }
+    .uploadBtn{
+        width: 100%;
+        font-size: 14px;
+    }
+    .formBtn{
+        width: 100%;
+        font-size: 24px;
+    }
+    .form{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .form>label{
+        font-size: 20px;
+    }
+    .inp{
+        font-size: 14px;
+    }
+  }
+  @media only screen and (max-width: 370px){
+    .title{
+        font-size: 2.5em;
+    }
+    .sub_title{
+        padding-right: 100px;
+    }
+    .robo_right{
+        right: 28px;
+    }
+  }

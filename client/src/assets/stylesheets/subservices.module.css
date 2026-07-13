@@ -1,0 +1,791 @@
+.sec1{
+    margin: 30px 50px;
+}
+.title{
+    color: #141D9D;
+    font-family: Jost;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 65px; /* 82.813% */
+    letter-spacing: 0.42px;
+}
+.subTitle{
+    color: #141D9D;
+    font-family: Jost;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 53px; /* 165.625% */
+    letter-spacing: 0.42px;
+}
+.description{
+    color: #141D9D;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 156.5%; /* 50.08px */
+}
+.heroImg{
+    width: 400px;
+    margin-top: -50px;
+}
+.pseudo{
+    position: absolute;
+    left: 350px;
+    bottom: -10px;
+}
+.sec2{
+    background-color: #141D9D;
+    margin: 100px 20px;
+    padding: 40px 50px;
+}
+.sec2Title{
+    color: #FFF;
+    font-family: Jost;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110.5%; /* 70.72px */
+}
+.pseudo2{
+    position: absolute;
+    left: 20px;
+    bottom: -3px;
+}
+.pseudo3{
+    position: absolute;
+    left: 20px;
+    bottom: -3px;
+}
+.sec2Inner{
+    background-color: white;
+    padding: 10px 20px;
+    margin-top: 40px;
+    height: 620px;
+    border-radius: 10px;
+}
+.sec2InnerWeb{
+    background-color: white;
+    padding: 10px 20px;
+    margin-top: 40px;
+    height: 400px;
+    border-radius: 10px;
+}
+.sec2InnerContent{
+    background-color: white;
+    padding: 10px 20px;
+    margin-top: 40px;
+    height: 280px;
+    border-radius: 10px;
+}
+.sec2InnerSeo{
+    background-color: white;
+    padding: 10px 20px;
+    margin-top: 40px;
+    height: 300px;
+    border-radius: 10px;
+}
+.counting{
+    text-align: right;
+    color: #141D9D;
+    font-family: Raleway;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 50px; /* 104.167% */
+    opacity: 0.1;
+}
+.info{
+    color: #141D9D;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    padding-bottom: 50px;
+}
+.serviceTitle{
+    color: #141D9D;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.sec3{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.roboBg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.robo{
+    width: 350px;
+}
+
+
+.infoBox{
+    width: 100%;
+    height: 550px;
+    cursor: pointer;
+    perspective: 1000px;
+    background-color: transparent;
+    margin: 0 auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.infoBox2{
+    width: 100%;
+    height: 430px;
+    cursor: pointer;
+    perspective: 1000px;
+    background-color: transparent;
+    margin: 0 auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flip_card_inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip_card:hover .flip_card_inner {
+    transform: rotateY(180deg);
+  }
+  
+  
+  .flip_card_front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background-color: #141D9D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 10px;
+    text-align: center;
+  }
+  
+  .flip_card_back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 10px;
+    text-align: center;
+    background-color: #1FA4E5;
+    transform: rotateY(180deg);
+  }
+
+  .infoTitle{
+    color: #FFF;
+    text-align: center;
+    font-family: Jost;
+    font-size: 28px;
+    padding: 20px 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 33px; /* 103.125% */
+    text-transform: capitalize;
+
+  }
+
+  .boxInfo{
+    color: #FFF;
+    text-align: center;
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px; /* 165% */
+    text-transform: capitalize;
+  }
+  .infoBtn{
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    align-items: center;
+    background-color: #1FA4E5;
+    border-radius: 100px;
+    outline: none;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    /* Button text  */
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 24px;
+  }
+  .infoBtn2{
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    align-items: center;
+    background-color: #141D9D;
+    border-radius: 100px;
+    outline: none;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 24px;
+  }
+  
+  .flip_card_back>.infoBtn{
+    background-color: #141D9D;
+  }
+
+
+  .sec4{
+    margin: 100px 0px;
+    background: #6B4DED;
+    padding: 40px;
+  }
+  .imgBg{
+    display: flex;
+    height: 100%;
+    justify-content: end;
+    align-items: end;
+
+  }
+  .sec4Img{
+    width: 430px;
+  }
+  .sec4Title{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+    margin-bottom: 40px;
+  }
+  .sec4Info{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .sec5{
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  .sec5Title{
+    color: #3B63F0;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+
+  }
+  .sec5Title2{
+    color: #6B4DED;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .sec5Img{
+    width: 500px;
+    margin: 50px 0;
+  }
+  .sec5Info{
+    background: #3B63F0;
+    padding: 40px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .sec5Info2{
+    background: #6B4DED;
+    padding: 40px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .sec5InfoTitle{
+    color: #FFF;
+    font-family: Jost;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 53px; /* 165.625% */
+    letter-spacing: 0.42px;
+    margin: 25px 0;
+  }
+
+  .faqTitle{
+    color: #131395;
+    font-family: Jost;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110.5%; /* 70.72px */
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .heroImgM{
+    display: none;
+  }
+  .faqImgBg{
+    display: none;
+  }
+
+
+  /* Web Development */
+  .sec6{
+    margin: 60px 0px;
+  }
+  .web2Bg{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .web2{
+    width: 350px;
+  }
+  .web2Right{
+    background-color: #6B4DED;
+    padding: 60px 30px;
+    color: white;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+  }
+  .sec6Title{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 39px;
+  }
+  .sec6SubTitle{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    margin: 20px 0px;
+  }
+  .techIcoBg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+  }
+  .techIco{
+    width: 100px;
+  }
+
+
+  /* Content Creation Page  */
+  .puzzleBox{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    margin-top: -60px;
+    margin-bottom: 100px;
+    color: #1A1A91;
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+    
+  }
+  .puzzle{
+    width: 80px;
+  }
+  .puzzleBoxTitle{
+    color: #1A1A91;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 20px 0;
+  }
+  .fBoxTitle{
+    color: #141D9D;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 20px 0;
+  }
+
+  /* SEO  */
+  .puzzleBox2{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    margin-bottom: 90px;
+    margin-top: 30px;
+    color: #1A1A91;
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+  }
+  .fBox2{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    margin-bottom: 90px;
+    color: #1A1A91;
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+  }
+  .fBox3{
+    display: flex;
+    align-items: start;
+    margin-bottom: 20px;
+    color: #1A1A91;
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+  }
+
+  .fIco{
+    width: 40px;
+  }
+  .pseudo4{
+    position: absolute;
+    top: 50px;
+    right: 200px;
+  }
+  .pseudo5{
+    position: absolute;
+    top: 50px;
+    right: 200px;
+  }
+  .faqImg{
+    width: 500px;
+    }
+
+
+@media only screen and (max-width: 1400px) {
+    .title{
+        font-size: 50px;
+        line-height: 53px;
+    }
+    .pseudo{
+        left: 300px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .title{
+        font-size: 45px;
+    }
+    .pseudo{
+        left: 200px;
+    }
+    .info{
+        font-size: 14px;
+    }
+    .sec2Inner{
+        height: 690px;
+    }
+    
+    .sec5Info2{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .heroImg{
+        display: none;
+    }
+    .heroImgM{
+        display: block;
+        width: 350px;
+    }
+    .subTitle{
+        font-size: 25px;
+    }
+    .heroImgBg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pseudo{
+        left: 80px;
+    }
+    .sec2Inner{
+        height: 280px;
+    }
+    .roboBg{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: -64px;
+    }
+    .robo{
+        width: 200px;
+        position: relative;
+        z-index: 99;
+    }
+    .imgBg{
+        justify-content: center;
+        align-items: center;
+    }
+    .sec4Inner{
+        flex-direction: column-reverse;
+    }
+    .infoBtn2{
+        margin-bottom: 40px;
+    }
+
+
+}
+@media only screen and (max-width: 500px) {
+    .sec5Img{
+        width: 300px;
+    }
+    .faqImg{
+        width: 300px;
+    }
+    .sec2Inner{
+        height: 400px;
+    }
+    .sec1{
+        margin: 20px 10px;
+    }
+    .title{
+        font-size: 35px;
+        line-height: 30px;
+        margin-top: 20px;
+    }
+    .subTitle{
+        font-size: 22px;
+    }
+    .description{
+        font-size: 16px;
+    }
+    .sec2{
+        margin: 50px 5px;
+    }
+    .sec2Title{
+        font-size: 32px;
+    }
+    .pseudo2{
+        top: 35px;
+        left: 175px;
+    }
+    .infoTitle{
+        font-size: 24px;
+    }
+    .boxInfo{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .sec4Img{
+        width: 250px;
+    }
+    .sec4Title{
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .sec4Info{
+        font-size: 17px;
+    }
+    .sec5Title{
+        text-align: center;
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .sec5Title2{
+        text-align: center;
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .sec5Info{
+        font-size: 18px;
+    }
+    .sec5Info2{
+        font-size: 18px;
+    }
+    .sec5InfoTitle{
+        text-align: center;
+        font-size: 21px;
+        line-height: 29px;
+    }
+    .faqTitle{
+        font-size: 32px;
+    }
+    .faqImgBg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .faqImg{
+        display: none;
+    }
+    .faqImgM{
+        width: 300px;
+    }
+    .sec6Title{
+        font-size: 25px;
+        text-align: center;
+        line-height: 30px;
+    }
+    .sec6SubTitle{
+        font-size: 20px;
+        text-align: center;
+    }
+    .web2Right{
+        padding: 40px 20px;
+        text-align: center;
+        font-size: 16px;
+    }
+    .pseudo3{
+        bottom: -13px;
+        left: 80px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .title{
+        text-align: left;
+    }
+    .pseudo{
+        bottom: -17px;
+    }
+    .subTitle{
+        line-height: 24px;
+        margin-top: 22px;
+    }
+    .sec2Title{
+        text-align: center;
+        font-size: 28px;
+    }
+    .pseudo2{
+        left: 80px;
+        top: 65px;
+    }
+    .serviceTitle{
+        font-size: 22px;
+        line-height: 24px;
+    }
+    .sec2Inner{
+        height: 90%;
+    }
+    .sec2{
+        padding: 40px 30px;
+    }
+    .robo{
+        width: 150px;
+    }
+    .robo_right{
+        display: flex;
+        transform: scale(0.7);
+        margin-left: -8px;
+    }
+    .roboBg{
+        margin-bottom: -50px;
+    }
+    .infoTitle{
+        padding: 15px 0px;
+        line-height: 30px;
+    }
+    .infoBtn{
+        margin-top: 15px;
+    }
+    .infoBox{
+        height: 580px;
+    }
+    .sec4{
+        padding: 40px 15px;
+    }
+    .sec5Info{
+        padding: 40px 15px;
+    }
+    .sec5Info2{
+        padding: 40px 15px;
+    }
+    .sec5Title{
+        font-size: 28px;
+    }
+    .sec5Title2{
+        font-size: 28px;
+    }
+    .pseudo4{
+        top: 120px;
+        left: 85px;
+    }
+    .pseudo5{
+        top: 180px;
+        left: 90px;
+        transform: scale(0.5);
+    }
+}

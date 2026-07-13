@@ -1,0 +1,249 @@
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    font-size: 8em;
+    font-weight: 800;
+    color: #141d9d3c;
+}
+.sub_title{
+    color: #141D9D;
+    font-weight: 700;
+    margin-left: 30px;
+    font-size: 2.5em;
+}
+.pseudo{
+    position: absolute;
+    left: 280px;
+    bottom: -5px;
+}
+.robo{
+    width: 300px;
+    animation: updown 3000ms ease infinite;
+    z-index: 99;
+    position: relative;
+
+}
+
+.shadow{
+    position: absolute;
+    left: 20px;
+    bottom: -70px;
+}
+
+
+
+.box{
+    
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+    perspective: 1000px;
+    background-color: transparent;
+    margin: 0 auto;
+    z-index: 1;
+
+
+}
+ 
+  .flip_card_inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip_card:hover .flip_card_inner {
+    transform: rotateY(180deg);
+  }
+  
+  
+  .flip_card_front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background-color: #141D9D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .flip_card_back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+    background-color: #1FA4E5;
+    transform: rotateY(180deg);
+  }
+
+
+
+
+
+
+
+
+
+.box_ico{
+    width: 100px;
+    margin-bottom: 30px;
+}
+.box_info{
+    color: white;
+    font-size: 1.3em;
+}
+.btn{
+    background-color: #1FA4E5;
+    outline: none;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    width: 170px;
+    padding: 15px 0px;
+}
+.btn:hover{
+    width: 200px;
+    background-color: #141D9D;
+}
+
+.shape{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: end;
+    margin-bottom: -50px;
+}
+.layer1{
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+.layer2{
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+.layer3{
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+
+@keyframes updown {
+    0%{
+      transform: translateY(15px);
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translateY(15px);
+
+    }
+  }
+  @media only screen and (max-width: 1400px){
+    .box{
+        width: 280px;
+    }
+  }
+  @media only screen and (max-width: 1200px){
+    .robo{
+        width: 220px;
+    }
+    .shadow{
+        left: -20px;
+    }
+    .box{
+        width: 230px;
+    }
+    .btn{
+        margin-top: 30px;
+    }
+  }
+  @media only screen and (max-width: 1000px){
+    .robo_right{
+        display: none;
+    }
+    .btn{
+        margin: 30px 20px;
+    }
+    .title{
+        font-size: 5.5em;
+    }
+    .sub_title{
+        font-size: 2em;
+    }
+    .wwd_first{
+        margin-bottom: 30px;
+    }
+  }
+
+
+  @media only screen and (max-width: 500px){
+    .wwd_first{
+        margin-bottom: 0px;
+    }
+    .title{
+        font-size: 3.5em;
+        margin-top: 30px;
+    }
+    .sub_title{
+        font-size: 2em;
+        margin-left: 0;
+    }
+    .pseudo{
+        left: 180px;
+    }
+    .shape{
+        display: none;
+    }
+    .shadow{
+        display: none;
+    }
+    .box{
+        margin-top: 24px;
+    }
+    .last_box{
+        margin-bottom: 20px;
+    }
+    .wwd_first{
+        padding: 100px 0px;
+    }
+    .robo{
+        width: 220px;
+        position: absolute;
+        top: 10px;
+        left: 0;
+    }
+    .robo_right{
+        display: flex;
+        position: absolute;
+        right: 25px;
+        bottom: -25px;
+        z-index: -1;
+    }
+    .btn{
+        margin: 20px auto;
+    }
+  }
+  @media only screen and (max-width: 380px){
+    .title{
+        font-size: 3em;
+    }
+  }
